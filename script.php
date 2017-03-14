@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>Ma page web</h1>
-        <p>Aujourd'hui nous sommes le <?php echo date('Y/m/d H:i:s'); ?> .</p>
+        <p>Aujourd'hui nous sommes le <?php echo date('Y/m/d H:i:s'); ?>.</p>
     </body>
 </html>
 

@@ -27,11 +27,55 @@
 	$chaine = strtolower($chaine);
 	 
 	echo $chaine;
-
+	echo '<br>';
 /*------------------------------------*/
 
 	// LES FONCTIONS DATES 
 
 	$annee = date('Y');
-	echo $annee;
+	$mois = date('m');
+	$jour = date('d');
+	$heure = date('H');
+	$minute = date('i');
+	
+	echo 'Nous sommes le ' . $jour . '/' . $mois . '/' . $annee . ' et il est ' . $heure . 'h' . $minute . 'm';
+	
+/*------------------------------------*/	
+	
+	
+	$nom = 'ayman';
+	echo 'Bonjour, ' . $nom . ' !<br />';
+	
+	$nom = 'ayoub';
+	echo 'Bonjour, ' . $nom . ' !<br />';
+	
+	$nom = 'hind';
+	echo 'Bonjour, ' . $nom . ' !<br />';
+	
+	function bonjour($nom){
+		echo 'Salut ' . $nom . ' !<br />'; 
+	}
+	bonjour('ayman');
+	bonjour('ayoub');
+	bonjour('hind');
+	
+
+/*------------------------------------*/
+	
+	// 
+
+	//Calcul du volume d'un cône de rayon 7 et de hauteur 2
+	function VolumeCone($rayon, $hauteur)
+	{
+	   $volume = $rayon * $rayon * 3.14 * $hauteur * (1/3); // calcul du volume
+	   return $volume;
+	}
+	
+	$volume = VolumeCone(3, 1); // recupérer le resultat dans une variable
+	echo 'Le volume du cone est : ' . $volume;
+	
+	
+	
+	
+	
 ?>
