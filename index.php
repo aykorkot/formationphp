@@ -9,11 +9,12 @@
  
     <?php include("header.php"); ?>
     
+    <a href="bonjour.php?nom=Dupont&amp;prenom=Jean&amp;repeter=8">Dis-moi bonjour !</a>
+    
     <!-- Le corps -->
     
     <div id="corps">
         <h1>Mon super site</h1>
-        
         <p>
             Bienvenue sur mon super site !<br />
             Vous allez adorer ici, c'est un site génial qui va parler de... euh... Je cherche encore un peu le thème de mon site. :-D
