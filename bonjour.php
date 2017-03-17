@@ -2,19 +2,19 @@
 
 	// Détermine si une variable est définie et est différente de NULL
 	
-	/*if (isset($_GET['prenom']) AND isset($_GET['nom'])) // On a le nom et le prénom
+	if (isset($_GET['prenom']) AND isset($_GET['nom'])) // On a le nom et le prénom
 	{
 		echo 'Bonjour ' . $_GET['prenom'] . ' ' . $_GET['nom'] . ' !';
 	}
 	else // Il manque des paramètres, on avertit le visiteur
 	{
 		echo 'Il faut renseigner un nom et un prénom !';
-	}*/
+	}
 	
 	
 	// Le paramètre repeter définit le nombre de fois que l'on dit « bonjour>>
 
-	if (isset($_GET['prenom']) AND isset($_GET['nom']) AND isset($_GET['repeter']))
+	/*if (isset($_GET['prenom']) AND isset($_GET['nom']) AND isset($_GET['repeter']))
 	{
 		// 1 : On force la conversion en nombre entier
 		$_GET['repeter'] = (int) $_GET['repeter'];
@@ -62,9 +62,9 @@
 			}
 		}
 		
-		qsdmlqksmld kqsmldk qmls
+
 	{
 	   echo 'Il faut renseigner un nom, un prénom et un nombre de répétitions !';
-	}
+	}*/
 	
 ?>
